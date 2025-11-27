@@ -1,0 +1,1221 @@
+2025-11-22 00:36:03.370 | INFO     | __main__:main:36 - ============================================================
+2025-11-22 00:36:03.370 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-22 00:36:03.371 | INFO     | __main__:main:38 - ============================================================
+2025-11-22 00:36:03.380 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-22 00:36:03.380 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-22 00:36:03.693 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-22 00:36:08.871 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-22 00:36:12.160 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-22 00:36:12.226 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-22 00:36:12.226 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-22 00:36:12.227 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-22 00:36:12.227 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-22 00:36:12.253 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-22 00:36:12.270 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-22 00:36:12.270 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-22 00:36:15.921 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-22 00:36:15.921 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-22 00:36:15.923 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-22 00:36:15.928 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-22 00:36:15.929 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-22 00:36:15.929 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-22 00:36:15.929 | INFO     | __main__:main:158 - ============================================================
+2025-11-22 00:36:15.930 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-22 00:36:15.930 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-22 00:36:15.930 | INFO     | __main__:main:161 - ============================================================
+2025-11-22 00:36:15.930 | INFO     | __main__:main:162 - 
+2025-11-22 00:36:15.931 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-22 00:36:15.932 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-22 00:36:15.932 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-22 00:36:15.932 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-22 00:36:15.933 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-22 00:36:15.933 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-22 00:36:15.933 | INFO     | __main__:main:171 - 
+2025-11-22 00:36:15.933 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-22 00:36:15.934 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-22 00:36:15.934 | INFO     | __main__:main:174 - ============================================================
+2025-11-22 00:45:19.740 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-22 00:46:10.528 | INFO     | __main__:main:36 - ============================================================
+2025-11-22 00:46:10.528 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-22 00:46:10.528 | INFO     | __main__:main:38 - ============================================================
+2025-11-22 00:46:10.534 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-22 00:46:10.534 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-22 00:46:10.759 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-22 00:46:14.530 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-22 00:46:17.710 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-22 00:46:17.767 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-22 00:46:17.767 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-22 00:46:17.768 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-22 00:46:17.768 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-22 00:46:17.791 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-22 00:46:17.807 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-22 00:46:17.807 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-22 00:46:21.562 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-22 00:46:21.562 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-22 00:46:21.562 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-22 00:46:21.563 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-22 00:46:21.567 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-22 00:46:21.568 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-22 00:46:21.568 | INFO     | __main__:main:158 - ============================================================
+2025-11-22 00:46:21.569 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-22 00:46:21.570 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-22 00:46:21.571 | INFO     | __main__:main:161 - ============================================================
+2025-11-22 00:46:21.572 | INFO     | __main__:main:162 - 
+2025-11-22 00:46:21.572 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-22 00:46:21.572 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-22 00:46:21.573 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-22 00:46:21.573 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-22 00:46:21.573 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-22 00:46:21.573 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-22 00:46:21.573 | INFO     | __main__:main:171 - 
+2025-11-22 00:46:21.574 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-22 00:46:21.574 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-22 00:46:21.574 | INFO     | __main__:main:174 - ============================================================
+2025-11-22 01:18:08.744 | INFO     | __main__:main:36 - ============================================================
+2025-11-22 01:18:08.744 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-22 01:18:08.744 | INFO     | __main__:main:38 - ============================================================
+2025-11-22 01:18:08.748 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-22 01:18:08.748 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-22 01:18:08.968 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-22 01:18:12.979 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-22 01:18:15.761 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-22 01:18:15.833 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-22 01:18:15.834 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-22 01:18:15.835 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-22 01:18:15.835 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-22 01:18:15.862 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-22 01:18:15.887 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-22 01:18:15.887 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-22 01:18:16.112 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-22 01:18:16.113 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-22 01:18:16.113 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-22 01:18:16.117 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-22 01:18:16.118 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-22 01:18:16.119 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-22 01:18:16.119 | INFO     | __main__:main:158 - ============================================================
+2025-11-22 01:18:16.119 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-22 01:18:16.120 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-22 01:18:16.121 | INFO     | __main__:main:161 - ============================================================
+2025-11-22 01:18:16.122 | INFO     | __main__:main:162 - 
+2025-11-22 01:18:16.123 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-22 01:18:16.124 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-22 01:18:16.124 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-22 01:18:16.124 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-22 01:18:16.126 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-22 01:18:16.127 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-22 01:18:16.127 | INFO     | __main__:main:171 - 
+2025-11-22 01:18:16.128 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-22 01:18:16.128 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-22 01:18:16.128 | INFO     | __main__:main:174 - ============================================================
+2025-11-22 13:42:41.197 | INFO     | __main__:main:36 - ============================================================
+2025-11-22 13:42:41.198 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-22 13:42:41.198 | INFO     | __main__:main:38 - ============================================================
+2025-11-22 13:42:41.202 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-22 13:42:41.203 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-22 13:42:41.424 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-22 13:42:46.333 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-22 13:42:49.973 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-22 13:42:50.033 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-22 13:42:50.033 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-22 13:42:50.034 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-22 13:42:50.034 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-22 13:42:50.076 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-22 13:42:50.109 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-22 13:42:50.110 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-22 13:42:50.440 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-22 13:42:50.441 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-22 13:42:50.446 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-22 13:42:50.447 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-22 13:42:50.449 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-22 13:42:50.449 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-22 13:42:50.450 | INFO     | __main__:main:158 - ============================================================
+2025-11-22 13:42:50.450 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-22 13:42:50.451 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-22 13:42:50.451 | INFO     | __main__:main:161 - ============================================================
+2025-11-22 13:42:50.452 | INFO     | __main__:main:162 - 
+2025-11-22 13:42:50.452 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-22 13:42:50.453 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-22 13:42:50.453 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-22 13:42:50.454 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-22 13:42:50.454 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-22 13:42:50.455 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-22 13:42:50.455 | INFO     | __main__:main:171 - 
+2025-11-22 13:42:50.456 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-22 13:42:50.456 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-22 13:42:50.456 | INFO     | __main__:main:174 - ============================================================
+2025-11-23 14:57:21.476 | INFO     | __main__:main:36 - ============================================================
+2025-11-23 14:57:21.476 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-23 14:57:21.478 | INFO     | __main__:main:38 - ============================================================
+2025-11-23 14:57:21.481 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-23 14:57:21.481 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-23 14:57:21.667 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-23 14:57:27.419 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-23 14:57:30.195 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-23 14:57:30.248 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-23 14:57:30.248 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-23 14:57:30.249 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-23 14:57:30.249 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-23 14:57:30.286 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-23 14:57:30.306 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-23 14:57:30.306 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-23 14:57:30.580 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-23 14:57:30.580 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-23 14:57:30.580 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-23 14:57:30.583 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-23 14:57:30.584 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-23 14:57:30.584 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-23 14:57:30.585 | INFO     | __main__:main:158 - ============================================================
+2025-11-23 14:57:30.585 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-23 14:57:30.585 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-23 14:57:30.585 | INFO     | __main__:main:161 - ============================================================
+2025-11-23 14:57:30.586 | INFO     | __main__:main:162 - 
+2025-11-23 14:57:30.586 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-23 14:57:30.587 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-23 14:57:30.587 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-23 14:57:30.587 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-23 14:57:30.588 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-23 14:57:30.588 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-23 14:57:30.588 | INFO     | __main__:main:171 - 
+2025-11-23 14:57:30.588 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-23 14:57:30.589 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-23 14:57:30.589 | INFO     | __main__:main:174 - ============================================================
+2025-11-24 00:27:51.673 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-24 00:28:49.049 | INFO     | __main__:main:36 - ============================================================
+2025-11-24 00:28:49.049 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-24 00:28:49.049 | INFO     | __main__:main:38 - ============================================================
+2025-11-24 00:28:49.054 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-24 00:28:49.055 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-24 00:28:49.309 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-24 00:28:52.946 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-24 00:28:57.143 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-24 00:28:57.214 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-24 00:28:57.214 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-24 00:28:57.215 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-24 00:28:57.215 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-24 00:28:57.245 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-24 00:28:57.272 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-24 00:28:57.272 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-24 00:28:57.587 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-24 00:28:57.587 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-24 00:28:57.587 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-24 00:28:57.588 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-24 00:28:57.592 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-24 00:28:57.593 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-24 00:28:57.593 | INFO     | __main__:main:158 - ============================================================
+2025-11-24 00:28:57.593 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-24 00:28:57.594 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-24 00:28:57.594 | INFO     | __main__:main:161 - ============================================================
+2025-11-24 00:28:57.594 | INFO     | __main__:main:162 - 
+2025-11-24 00:28:57.595 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-24 00:28:57.595 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-24 00:28:57.595 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-24 00:28:57.596 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-24 00:28:57.596 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-24 00:28:57.596 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-24 00:28:57.597 | INFO     | __main__:main:171 - 
+2025-11-24 00:28:57.598 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-24 00:28:57.600 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-24 00:28:57.600 | INFO     | __main__:main:174 - ============================================================
+2025-11-24 01:38:09.487 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-24 01:58:41.479 | INFO     | __main__:main:36 - ============================================================
+2025-11-24 01:58:41.481 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-24 01:58:41.481 | INFO     | __main__:main:38 - ============================================================
+2025-11-24 01:58:41.484 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-24 01:58:41.484 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-24 01:58:41.667 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-24 01:58:45.180 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-24 01:58:48.422 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-24 01:58:48.475 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-24 01:58:48.475 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-24 01:58:48.476 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-24 01:58:48.476 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-24 01:58:48.499 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-24 01:58:48.524 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-24 01:58:48.524 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-24 01:58:48.769 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-24 01:58:48.770 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-24 01:58:48.770 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-24 01:58:48.773 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-24 01:58:48.774 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-24 01:58:48.774 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-24 01:58:48.774 | INFO     | __main__:main:158 - ============================================================
+2025-11-24 01:58:48.774 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-24 01:58:48.775 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-24 01:58:48.775 | INFO     | __main__:main:161 - ============================================================
+2025-11-24 01:58:48.775 | INFO     | __main__:main:162 - 
+2025-11-24 01:58:48.775 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-24 01:58:48.775 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-24 01:58:48.776 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-24 01:58:48.777 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-24 01:58:48.778 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-24 01:58:48.778 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-24 01:58:48.778 | INFO     | __main__:main:171 - 
+2025-11-24 01:58:48.778 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-24 01:58:48.779 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-24 01:58:48.779 | INFO     | __main__:main:174 - ============================================================
+2025-11-24 15:56:44.479 | INFO     | __main__:main:36 - ============================================================
+2025-11-24 15:56:44.480 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-24 15:56:44.480 | INFO     | __main__:main:38 - ============================================================
+2025-11-24 15:56:44.484 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-24 15:56:44.484 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-24 15:56:44.716 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-24 15:56:49.391 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-24 15:56:53.147 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-24 15:56:53.215 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-24 15:56:53.215 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-24 15:56:53.215 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-24 15:56:53.215 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-24 15:56:53.258 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-24 15:56:53.282 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-24 15:56:53.282 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-24 15:56:53.573 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-24 15:56:53.573 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-24 15:56:53.577 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-24 15:56:53.577 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-24 15:56:53.578 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-24 15:56:53.579 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-24 15:56:53.579 | INFO     | __main__:main:158 - ============================================================
+2025-11-24 15:56:53.580 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-24 15:56:53.580 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-24 15:56:53.580 | INFO     | __main__:main:161 - ============================================================
+2025-11-24 15:56:53.580 | INFO     | __main__:main:162 - 
+2025-11-24 15:56:53.582 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-24 15:56:53.582 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-24 15:56:53.583 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-24 15:56:53.583 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-24 15:56:53.584 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-24 15:56:53.584 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-24 15:56:53.585 | INFO     | __main__:main:171 - 
+2025-11-24 15:56:53.585 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-24 15:56:53.585 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-24 15:56:53.586 | INFO     | __main__:main:174 - ============================================================
+2025-11-24 16:46:49.763 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-24 16:49:26.677 | INFO     | __main__:main:36 - ============================================================
+2025-11-24 16:49:26.677 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-24 16:49:26.677 | INFO     | __main__:main:38 - ============================================================
+2025-11-24 16:49:26.681 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-24 16:49:26.681 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-24 16:49:26.866 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-24 16:49:30.466 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-24 16:49:33.406 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-24 16:49:33.466 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-24 16:49:33.466 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-24 16:49:33.467 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-24 16:49:33.467 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-24 16:49:33.489 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-24 16:49:33.510 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-24 16:49:33.511 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-24 16:49:33.773 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-24 16:49:33.774 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-24 16:49:33.774 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-24 16:49:33.776 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-24 16:49:33.778 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-24 16:49:33.778 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-24 16:49:33.779 | INFO     | __main__:main:158 - ============================================================
+2025-11-24 16:49:33.779 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-24 16:49:33.779 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-24 16:49:33.780 | INFO     | __main__:main:161 - ============================================================
+2025-11-24 16:49:33.780 | INFO     | __main__:main:162 - 
+2025-11-24 16:49:33.782 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-24 16:49:33.782 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-24 16:49:33.783 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-24 16:49:33.783 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-24 16:49:33.783 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-24 16:49:33.783 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-24 16:49:33.784 | INFO     | __main__:main:171 - 
+2025-11-24 16:49:33.784 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-24 16:49:33.784 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-24 16:49:33.784 | INFO     | __main__:main:174 - ============================================================
+2025-11-24 22:11:47.063 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-24 22:12:25.459 | INFO     | __main__:main:36 - ============================================================
+2025-11-24 22:12:25.460 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-24 22:12:25.460 | INFO     | __main__:main:38 - ============================================================
+2025-11-24 22:12:25.465 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-24 22:12:25.465 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-24 22:12:25.707 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-24 22:12:29.132 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-24 22:12:33.870 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-24 22:12:33.948 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-24 22:12:33.949 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-24 22:12:33.949 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-24 22:12:33.949 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-24 22:12:33.980 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-24 22:12:34.009 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-24 22:12:34.009 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-24 22:12:34.480 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-24 22:12:34.481 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-24 22:12:34.481 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-24 22:12:34.484 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-24 22:12:34.485 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-24 22:12:34.485 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-24 22:12:34.486 | INFO     | __main__:main:158 - ============================================================
+2025-11-24 22:12:34.487 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-24 22:12:34.487 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-24 22:12:34.487 | INFO     | __main__:main:161 - ============================================================
+2025-11-24 22:12:34.487 | INFO     | __main__:main:162 - 
+2025-11-24 22:12:34.488 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-24 22:12:34.488 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-24 22:12:34.490 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-24 22:12:34.491 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-24 22:12:34.491 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-24 22:12:34.491 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-24 22:12:34.492 | INFO     | __main__:main:171 - 
+2025-11-24 22:12:34.492 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-24 22:12:34.492 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-24 22:12:34.492 | INFO     | __main__:main:174 - ============================================================
+2025-11-24 23:18:49.013 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-24 23:20:55.530 | INFO     | __main__:main:36 - ============================================================
+2025-11-24 23:20:55.532 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-24 23:20:55.532 | INFO     | __main__:main:38 - ============================================================
+2025-11-24 23:20:55.540 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-24 23:20:55.541 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-24 23:20:55.864 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-24 23:20:59.045 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-24 23:21:04.266 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-24 23:21:04.389 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-24 23:21:04.389 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-24 23:21:04.389 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-24 23:21:04.389 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-24 23:21:04.441 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-24 23:21:04.475 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-24 23:21:04.475 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-24 23:21:04.884 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-24 23:21:04.884 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-24 23:21:04.889 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-24 23:21:04.890 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-24 23:21:04.890 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-24 23:21:04.891 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-24 23:21:04.891 | INFO     | __main__:main:158 - ============================================================
+2025-11-24 23:21:04.891 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-24 23:21:04.893 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-24 23:21:04.893 | INFO     | __main__:main:161 - ============================================================
+2025-11-24 23:21:04.895 | INFO     | __main__:main:162 - 
+2025-11-24 23:21:04.896 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-24 23:21:04.897 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-24 23:21:04.898 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-24 23:21:04.898 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-24 23:21:04.898 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-24 23:21:04.898 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-24 23:21:04.899 | INFO     | __main__:main:171 - 
+2025-11-24 23:21:04.899 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-24 23:21:04.899 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-24 23:21:04.899 | INFO     | __main__:main:174 - ============================================================
+2025-11-24 23:54:01.726 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-24 23:55:32.950 | INFO     | __main__:main:36 - ============================================================
+2025-11-24 23:55:32.951 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-24 23:55:32.951 | INFO     | __main__:main:38 - ============================================================
+2025-11-24 23:55:32.956 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-24 23:55:32.957 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-24 23:55:33.195 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-24 23:55:36.825 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-24 23:55:40.453 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-24 23:55:40.541 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-24 23:55:40.541 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-24 23:55:40.542 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-24 23:55:40.542 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-24 23:55:40.579 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-24 23:55:40.607 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-24 23:55:40.607 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-24 23:55:40.917 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-24 23:55:40.918 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-24 23:55:40.922 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-24 23:55:40.922 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-24 23:55:40.923 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-24 23:55:40.924 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-24 23:55:40.924 | INFO     | __main__:main:158 - ============================================================
+2025-11-24 23:55:40.926 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-24 23:55:40.926 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-24 23:55:40.926 | INFO     | __main__:main:161 - ============================================================
+2025-11-24 23:55:40.926 | INFO     | __main__:main:162 - 
+2025-11-24 23:55:40.928 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-24 23:55:40.928 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-24 23:55:40.930 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-24 23:55:40.931 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-24 23:55:40.931 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-24 23:55:40.932 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-24 23:55:40.932 | INFO     | __main__:main:171 - 
+2025-11-24 23:55:40.933 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-24 23:55:40.933 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-24 23:55:40.933 | INFO     | __main__:main:174 - ============================================================
+2025-11-25 01:04:38.891 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-25 01:05:18.945 | INFO     | __main__:main:36 - ============================================================
+2025-11-25 01:05:18.946 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-25 01:05:18.946 | INFO     | __main__:main:38 - ============================================================
+2025-11-25 01:05:18.950 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-25 01:05:18.950 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-25 01:05:19.139 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-25 01:05:22.318 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-25 01:05:27.245 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-25 01:05:27.316 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-25 01:05:27.316 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-25 01:05:27.317 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-25 01:05:27.317 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-25 01:05:27.341 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-25 01:05:27.371 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-25 01:05:27.371 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-25 01:05:27.704 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-25 01:05:27.704 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-25 01:05:27.713 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-25 01:05:27.713 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-25 01:05:27.714 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-25 01:05:27.715 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-25 01:05:27.715 | INFO     | __main__:main:158 - ============================================================
+2025-11-25 01:05:27.716 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-25 01:05:27.716 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-25 01:05:27.717 | INFO     | __main__:main:161 - ============================================================
+2025-11-25 01:05:27.717 | INFO     | __main__:main:162 - 
+2025-11-25 01:05:27.718 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-25 01:05:27.720 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-25 01:05:27.721 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-25 01:05:27.723 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-25 01:05:27.723 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-25 01:05:27.724 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-25 01:05:27.724 | INFO     | __main__:main:171 - 
+2025-11-25 01:05:27.725 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-25 01:05:27.725 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-25 01:05:27.737 | INFO     | __main__:main:174 - ============================================================
+2025-11-25 01:58:05.968 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-25 23:11:53.826 | INFO     | __main__:main:36 - ============================================================
+2025-11-25 23:11:53.827 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-25 23:11:53.828 | INFO     | __main__:main:38 - ============================================================
+2025-11-25 23:11:53.832 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-25 23:11:53.833 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-25 23:11:54.017 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-25 23:11:57.629 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-25 23:11:59.836 | ERROR    | __main__:main:187 - ❌ Fatal error: cannot import name 'format_statistics_response' from 'prompts.ai_prompts' (C:\Users\grees\OneDrive\Documents\CortexaBOT\cortexa-final-version\cortex\prompts\ai_prompts.py)
+2025-11-25 23:11:59.836 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-25 23:11:59.837 | ERROR    | __main__:<module>:200 - Failed to start bot: cannot import name 'format_statistics_response' from 'prompts.ai_prompts' (C:\Users\grees\OneDrive\Documents\CortexaBOT\cortexa-final-version\cortex\prompts\ai_prompts.py)
+2025-11-25 23:15:28.024 | INFO     | __main__:main:36 - ============================================================
+2025-11-25 23:15:28.026 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-25 23:15:28.026 | INFO     | __main__:main:38 - ============================================================
+2025-11-25 23:15:28.030 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-25 23:15:28.031 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-25 23:15:28.198 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-25 23:15:31.777 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-25 23:15:34.369 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-25 23:15:34.451 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-25 23:15:34.452 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-25 23:15:34.452 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-25 23:15:34.453 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-25 23:15:34.472 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-25 23:15:34.498 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-25 23:15:34.498 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-25 23:15:34.775 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-25 23:15:34.776 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-25 23:15:34.776 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-25 23:15:34.776 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-25 23:15:34.778 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-25 23:15:34.779 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-25 23:15:34.779 | INFO     | __main__:main:158 - ============================================================
+2025-11-25 23:15:34.779 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-25 23:15:34.779 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-25 23:15:34.780 | INFO     | __main__:main:161 - ============================================================
+2025-11-25 23:15:34.780 | INFO     | __main__:main:162 - 
+2025-11-25 23:15:34.780 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-25 23:15:34.780 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-25 23:15:34.781 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-25 23:15:34.781 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-25 23:15:34.781 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-25 23:15:34.782 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-25 23:15:34.782 | INFO     | __main__:main:171 - 
+2025-11-25 23:15:34.782 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-25 23:15:34.782 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-25 23:15:34.784 | INFO     | __main__:main:174 - ============================================================
+2025-11-25 23:25:16.546 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-25 23:25:52.321 | INFO     | __main__:main:36 - ============================================================
+2025-11-25 23:25:52.321 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-25 23:25:52.321 | INFO     | __main__:main:38 - ============================================================
+2025-11-25 23:25:52.325 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-25 23:25:52.325 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-25 23:25:52.497 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-25 23:25:55.593 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-25 23:25:57.431 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-25 23:25:57.483 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-25 23:25:57.483 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-25 23:25:57.484 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-25 23:25:57.485 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-25 23:25:57.502 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-25 23:25:57.516 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-25 23:25:57.516 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-25 23:25:57.636 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-25 23:25:57.636 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-25 23:25:57.636 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-25 23:25:57.636 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-25 23:25:57.637 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-25 23:25:57.639 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-25 23:25:57.639 | INFO     | __main__:main:158 - ============================================================
+2025-11-25 23:25:57.639 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-25 23:25:57.640 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-25 23:25:57.640 | INFO     | __main__:main:161 - ============================================================
+2025-11-25 23:25:57.640 | INFO     | __main__:main:162 - 
+2025-11-25 23:25:57.640 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-25 23:25:57.641 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-25 23:25:57.641 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-25 23:25:57.641 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-25 23:25:57.641 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-25 23:25:57.641 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-25 23:25:57.641 | INFO     | __main__:main:171 - 
+2025-11-25 23:25:57.642 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-25 23:25:57.642 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-25 23:25:57.643 | INFO     | __main__:main:174 - ============================================================
+2025-11-25 23:34:08.033 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-25 23:34:34.356 | INFO     | __main__:main:36 - ============================================================
+2025-11-25 23:34:34.356 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-25 23:34:34.357 | INFO     | __main__:main:38 - ============================================================
+2025-11-25 23:34:34.360 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-25 23:34:34.360 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-25 23:34:34.548 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-25 23:34:37.717 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-25 23:34:40.129 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-25 23:34:40.181 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-25 23:34:40.182 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-25 23:34:40.183 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-25 23:34:40.183 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-25 23:34:40.203 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-25 23:34:40.217 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-25 23:34:40.218 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-25 23:34:40.412 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-25 23:34:40.412 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-25 23:34:40.414 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-25 23:34:40.415 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-25 23:34:40.415 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-25 23:34:40.416 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-25 23:34:40.416 | INFO     | __main__:main:158 - ============================================================
+2025-11-25 23:34:40.416 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-25 23:34:40.417 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-25 23:34:40.417 | INFO     | __main__:main:161 - ============================================================
+2025-11-25 23:34:40.417 | INFO     | __main__:main:162 - 
+2025-11-25 23:34:40.418 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-25 23:34:40.418 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-25 23:34:40.418 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-25 23:34:40.418 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-25 23:34:40.419 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-25 23:34:40.419 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-25 23:34:40.420 | INFO     | __main__:main:171 - 
+2025-11-25 23:34:40.420 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-25 23:34:40.420 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-25 23:34:40.421 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 01:07:31.616 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 01:08:02.833 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 01:08:02.833 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 01:08:02.834 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 01:08:02.838 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 01:08:02.838 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 01:08:03.048 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 01:08:06.579 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 01:08:09.586 | ERROR    | __main__:main:187 - ❌ Fatal error: No module named 'bot_knowledge'
+2025-11-26 01:08:09.586 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 01:08:09.587 | ERROR    | __main__:<module>:200 - Failed to start bot: No module named 'bot_knowledge'
+2025-11-26 01:10:24.806 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 01:10:24.806 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 01:10:24.807 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 01:10:24.810 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 01:10:24.810 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 01:10:25.074 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 01:10:28.710 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 01:10:31.452 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 01:10:31.517 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 01:10:31.518 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 01:10:31.518 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 01:10:31.518 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 01:10:31.548 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 01:10:31.574 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 01:10:31.574 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 01:10:31.794 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 01:10:31.794 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 01:10:31.795 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 01:10:31.795 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 01:10:31.799 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 01:10:31.799 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 01:10:31.799 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 01:10:31.801 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 01:10:31.801 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 01:10:31.801 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 01:10:31.802 | INFO     | __main__:main:162 - 
+2025-11-26 01:10:31.802 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 01:10:31.803 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 01:10:31.804 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 01:10:31.804 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 01:10:31.804 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 01:10:31.805 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 01:10:31.805 | INFO     | __main__:main:171 - 
+2025-11-26 01:10:31.806 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 01:10:31.807 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 01:10:31.807 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 01:16:07.143 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 01:17:28.909 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 01:17:28.910 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 01:17:28.910 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 01:17:28.915 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 01:17:28.916 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 01:17:29.254 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 01:17:33.232 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 01:17:39.821 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 01:17:40.041 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 01:17:40.041 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 01:17:40.043 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 01:17:40.043 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 01:17:40.117 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 01:17:40.159 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 01:17:40.160 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 01:17:40.631 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 01:17:40.632 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 01:17:40.633 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 01:17:40.646 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 01:17:40.647 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 01:17:40.647 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 01:17:40.648 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 01:17:40.649 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 01:17:40.650 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 01:17:40.651 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 01:17:40.652 | INFO     | __main__:main:162 - 
+2025-11-26 01:17:40.653 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 01:17:40.654 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 01:17:40.655 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 01:17:40.658 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 01:17:40.660 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 01:17:40.661 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 01:17:40.663 | INFO     | __main__:main:171 - 
+2025-11-26 01:17:40.664 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 01:17:40.664 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 01:17:40.665 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 01:20:59.694 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 01:21:03.125 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 01:21:03.125 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 01:21:03.125 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 01:21:03.132 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 01:21:03.133 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 01:21:03.353 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 01:21:06.826 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 01:21:09.368 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 01:21:09.447 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 01:21:09.447 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 01:21:09.448 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 01:21:09.448 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 01:21:09.481 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 01:21:09.500 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 01:21:09.501 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 01:21:09.719 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 01:21:09.720 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 01:21:09.720 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 01:21:09.724 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 01:21:09.726 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 01:21:09.727 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 01:21:09.728 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 01:21:09.728 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 01:21:09.728 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 01:21:09.729 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 01:21:09.729 | INFO     | __main__:main:162 - 
+2025-11-26 01:21:09.729 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 01:21:09.730 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 01:21:09.730 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 01:21:09.730 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 01:21:09.731 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 01:21:09.731 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 01:21:09.731 | INFO     | __main__:main:171 - 
+2025-11-26 01:21:09.731 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 01:21:09.731 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 01:21:09.732 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 02:14:59.784 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 02:15:35.092 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 02:15:35.093 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 02:15:35.093 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 02:15:35.097 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 02:15:35.097 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 02:15:35.357 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 02:15:38.942 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 02:15:42.499 | ERROR    | __main__:main:187 - ❌ Fatal error: No module named 'bot_knowledge'
+2025-11-26 02:15:42.500 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 02:15:42.501 | ERROR    | __main__:<module>:200 - Failed to start bot: No module named 'bot_knowledge'
+2025-11-26 02:16:21.657 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 02:16:21.658 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 02:16:21.658 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 02:16:21.661 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 02:16:21.662 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 02:16:21.875 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 02:16:25.630 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 02:16:27.924 | ERROR    | __main__:main:187 - ❌ Fatal error: unexpected indent (bot_handlers.py, line 2060)
+2025-11-26 02:16:27.924 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 02:16:27.925 | ERROR    | __main__:<module>:200 - Failed to start bot: unexpected indent (bot_handlers.py, line 2060)
+2025-11-26 12:50:09.366 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 12:50:09.368 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 12:50:09.368 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 12:50:09.374 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 12:50:09.374 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 12:50:09.943 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 12:50:16.380 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 12:50:19.206 | ERROR    | __main__:main:187 - ❌ Fatal error: No module named 'cortex'
+2025-11-26 12:50:19.207 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 12:50:19.207 | ERROR    | __main__:<module>:200 - Failed to start bot: No module named 'cortex'
+2025-11-26 12:51:20.802 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 12:51:20.803 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 12:51:20.803 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 12:51:20.806 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 12:51:20.807 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 12:51:20.977 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 12:51:27.253 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 12:51:29.260 | ERROR    | __main__:main:187 - ❌ Fatal error: No module named 'cortex'
+2025-11-26 12:51:29.261 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 12:51:29.261 | ERROR    | __main__:<module>:200 - Failed to start bot: No module named 'cortex'
+2025-11-26 12:52:29.773 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 12:52:29.773 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 12:52:29.774 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 12:52:29.778 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 12:52:29.778 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 12:52:29.952 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 12:52:34.575 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 12:52:36.655 | ERROR    | __main__:main:187 - ❌ Fatal error: No module named 'cortex'
+2025-11-26 12:52:36.655 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 12:52:36.656 | ERROR    | __main__:<module>:200 - Failed to start bot: No module named 'cortex'
+2025-11-26 12:57:12.013 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 12:57:12.014 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 12:57:12.014 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 12:57:12.022 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 12:57:12.022 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 12:57:12.443 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 12:57:17.969 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 12:57:23.016 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 12:57:23.224 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 12:57:23.225 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 12:57:23.226 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 12:57:23.227 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 12:57:23.333 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 12:57:23.412 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 12:57:23.413 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 12:57:23.952 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 12:57:23.953 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 12:57:23.954 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 12:57:23.963 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 12:57:23.965 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 12:57:23.967 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 12:57:23.968 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 12:57:23.969 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 12:57:23.970 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 12:57:23.970 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 12:57:23.972 | INFO     | __main__:main:162 - 
+2025-11-26 12:57:23.974 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 12:57:23.975 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 12:57:23.975 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 12:57:23.975 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 12:57:23.976 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 12:57:23.977 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 12:57:23.977 | INFO     | __main__:main:171 - 
+2025-11-26 12:57:23.978 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 12:57:23.978 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 12:57:23.979 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 13:10:06.888 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 13:17:26.279 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 13:17:26.280 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 13:17:26.280 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 13:17:26.286 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 13:17:26.287 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 13:17:26.536 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 13:17:31.273 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 13:17:35.536 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 13:17:35.613 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 13:17:35.614 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 13:17:35.614 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 13:17:35.615 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 13:17:35.650 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 13:17:35.679 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 13:17:35.680 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 13:17:35.927 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 13:17:35.928 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 13:17:35.932 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 13:17:35.932 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 13:17:35.933 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 13:17:35.935 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 13:17:35.935 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 13:17:35.935 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 13:17:35.936 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 13:17:35.936 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 13:17:35.937 | INFO     | __main__:main:162 - 
+2025-11-26 13:17:35.938 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 13:17:35.938 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 13:17:35.939 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 13:17:35.939 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 13:17:35.941 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 13:17:35.942 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 13:17:35.943 | INFO     | __main__:main:171 - 
+2025-11-26 13:17:35.943 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 13:17:35.944 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 13:17:35.945 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 16:27:35.037 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 16:27:35.038 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 16:27:35.038 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 16:27:35.043 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 16:27:35.044 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 16:27:35.218 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 16:27:39.877 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 16:27:41.969 | ERROR    | __main__:main:187 - ❌ Fatal error: cannot import name 'format_statistics_response' from 'prompts.ai_prompts' (C:\Users\grees\OneDrive\Documents\CortexaBOT\cortexa-final-version\cortex\prompts\ai_prompts.py)
+2025-11-26 16:27:41.969 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 16:27:41.970 | ERROR    | __main__:<module>:200 - Failed to start bot: cannot import name 'format_statistics_response' from 'prompts.ai_prompts' (C:\Users\grees\OneDrive\Documents\CortexaBOT\cortexa-final-version\cortex\prompts\ai_prompts.py)
+2025-11-26 16:31:02.192 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 16:31:02.193 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 16:31:02.193 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 16:31:02.196 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 16:31:02.197 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 16:31:02.471 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 16:31:06.316 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 16:31:10.110 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 16:31:10.224 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 16:31:10.225 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 16:31:10.225 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 16:31:10.225 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 16:31:10.284 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 16:31:10.319 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 16:31:10.321 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 16:31:10.716 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 16:31:10.716 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 16:31:10.717 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 16:31:10.721 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 16:31:10.722 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 16:31:10.722 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 16:31:10.723 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 16:31:10.723 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 16:31:10.723 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 16:31:10.724 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 16:31:10.724 | INFO     | __main__:main:162 - 
+2025-11-26 16:31:10.724 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 16:31:10.724 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 16:31:10.725 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 16:31:10.725 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 16:31:10.725 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 16:31:10.725 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 16:31:10.725 | INFO     | __main__:main:171 - 
+2025-11-26 16:31:10.725 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 16:31:10.726 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 16:31:10.726 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 16:35:17.186 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 16:44:21.932 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 16:44:21.933 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 16:44:21.933 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 16:44:21.938 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 16:44:21.938 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 16:44:22.252 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 16:44:28.244 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 16:44:31.286 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 16:44:31.380 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 16:44:31.380 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 16:44:31.381 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 16:44:31.381 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 16:44:31.402 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 16:44:31.426 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 16:44:31.427 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 16:44:31.620 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 16:44:31.620 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 16:44:31.623 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 16:44:31.623 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 16:44:31.624 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 16:44:31.625 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 16:44:31.625 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 16:44:31.625 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 16:44:31.625 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 16:44:31.626 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 16:44:31.626 | INFO     | __main__:main:162 - 
+2025-11-26 16:44:31.627 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 16:44:31.627 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 16:44:31.628 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 16:44:31.628 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 16:44:31.628 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 16:44:31.628 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 16:44:31.628 | INFO     | __main__:main:171 - 
+2025-11-26 16:44:31.628 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 16:44:31.629 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 16:44:31.629 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 17:39:40.069 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 17:42:05.802 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 17:42:05.804 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 17:42:05.804 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 17:42:05.809 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 17:42:05.810 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 17:42:06.016 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 17:42:10.168 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 17:42:15.445 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 17:42:15.536 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 17:42:15.536 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 17:42:15.536 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 17:42:15.538 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 17:42:15.579 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 17:42:15.614 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 17:42:15.615 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 17:42:16.028 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 17:42:16.028 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 17:42:16.029 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 17:42:16.029 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 17:42:16.034 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 17:42:16.034 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 17:42:16.035 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 17:42:16.035 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 17:42:16.036 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 17:42:16.037 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 17:42:16.037 | INFO     | __main__:main:162 - 
+2025-11-26 17:42:16.038 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 17:42:16.038 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 17:42:16.038 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 17:42:16.039 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 17:42:16.039 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 17:42:16.039 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 17:42:16.039 | INFO     | __main__:main:171 - 
+2025-11-26 17:42:16.040 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 17:42:16.041 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 17:42:16.042 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 17:53:51.765 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-26 17:55:16.711 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 17:55:16.712 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 17:55:16.713 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 17:55:16.716 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 17:55:16.717 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 17:55:16.917 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 17:55:21.319 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 17:55:23.857 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 17:55:23.920 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 17:55:23.920 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 17:55:23.920 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 17:55:23.921 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 17:55:23.945 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 17:55:23.964 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 17:55:23.965 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 17:55:24.147 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 17:55:24.148 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 17:55:24.150 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 17:55:24.150 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 17:55:24.152 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 17:55:24.152 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 17:55:24.152 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 17:55:24.153 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 17:55:24.153 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 17:55:24.154 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 17:55:24.155 | INFO     | __main__:main:162 - 
+2025-11-26 17:55:24.155 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 17:55:24.155 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 17:55:24.155 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 17:55:24.156 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 17:55:24.156 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 17:55:24.156 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 17:55:24.156 | INFO     | __main__:main:171 - 
+2025-11-26 17:55:24.156 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 17:55:24.157 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 17:55:24.157 | INFO     | __main__:main:174 - ============================================================
+2025-11-26 23:56:43.168 | INFO     | __main__:main:36 - ============================================================
+2025-11-26 23:56:43.168 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-26 23:56:43.168 | INFO     | __main__:main:38 - ============================================================
+2025-11-26 23:56:43.172 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-26 23:56:43.172 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-26 23:56:43.428 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-26 23:56:46.830 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-26 23:56:49.859 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-26 23:56:49.915 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-26 23:56:49.916 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-26 23:56:49.916 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-26 23:56:49.917 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-26 23:56:49.937 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-26 23:56:49.960 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-26 23:56:49.961 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-26 23:56:50.188 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-26 23:56:50.188 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-26 23:56:50.190 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-26 23:56:50.191 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-26 23:56:50.192 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-26 23:56:50.192 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-26 23:56:50.192 | INFO     | __main__:main:158 - ============================================================
+2025-11-26 23:56:50.192 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-26 23:56:50.192 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-26 23:56:50.193 | INFO     | __main__:main:161 - ============================================================
+2025-11-26 23:56:50.193 | INFO     | __main__:main:162 - 
+2025-11-26 23:56:50.193 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-26 23:56:50.195 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-26 23:56:50.195 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-26 23:56:50.196 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-26 23:56:50.196 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-26 23:56:50.196 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-26 23:56:50.196 | INFO     | __main__:main:171 - 
+2025-11-26 23:56:50.196 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-26 23:56:50.197 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-26 23:56:50.197 | INFO     | __main__:main:174 - ============================================================
+2025-11-27 01:10:24.644 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-27 01:11:39.633 | INFO     | __main__:main:36 - ============================================================
+2025-11-27 01:11:39.633 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-27 01:11:39.634 | INFO     | __main__:main:38 - ============================================================
+2025-11-27 01:11:39.637 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-27 01:11:39.638 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-27 01:11:39.811 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-27 01:11:42.971 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-27 01:11:45.743 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-27 01:11:45.801 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-27 01:11:45.802 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-27 01:11:45.802 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-27 01:11:45.803 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-27 01:11:45.823 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-27 01:11:45.835 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-27 01:11:45.835 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-27 01:11:46.031 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-27 01:11:46.031 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-27 01:11:46.032 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-27 01:11:46.032 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-27 01:11:46.035 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-27 01:11:46.036 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-27 01:11:46.036 | INFO     | __main__:main:158 - ============================================================
+2025-11-27 01:11:46.036 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-27 01:11:46.037 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-27 01:11:46.037 | INFO     | __main__:main:161 - ============================================================
+2025-11-27 01:11:46.038 | INFO     | __main__:main:162 - 
+2025-11-27 01:11:46.038 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-27 01:11:46.038 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-27 01:11:46.038 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-27 01:11:46.038 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-27 01:11:46.039 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-27 01:11:46.039 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-27 01:11:46.040 | INFO     | __main__:main:171 - 
+2025-11-27 01:11:46.040 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-27 01:11:46.040 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-27 01:11:46.040 | INFO     | __main__:main:174 - ============================================================
+2025-11-27 01:28:14.298 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-27 01:29:22.998 | INFO     | __main__:main:36 - ============================================================
+2025-11-27 01:29:22.998 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-27 01:29:22.999 | INFO     | __main__:main:38 - ============================================================
+2025-11-27 01:29:23.002 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-27 01:29:23.003 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-27 01:29:23.199 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-27 01:29:26.567 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-27 01:29:29.263 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-27 01:29:29.321 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-27 01:29:29.321 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-27 01:29:29.322 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-27 01:29:29.322 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-27 01:29:29.365 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-27 01:29:29.376 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-27 01:29:29.377 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-27 01:29:29.590 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-27 01:29:29.592 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-27 01:29:29.593 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-27 01:29:29.593 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-27 01:29:29.594 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-27 01:29:29.594 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-27 01:29:29.594 | INFO     | __main__:main:158 - ============================================================
+2025-11-27 01:29:29.595 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-27 01:29:29.595 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-27 01:29:29.595 | INFO     | __main__:main:161 - ============================================================
+2025-11-27 01:29:29.596 | INFO     | __main__:main:162 - 
+2025-11-27 01:29:29.596 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-27 01:29:29.597 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-27 01:29:29.597 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-27 01:29:29.597 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-27 01:29:29.597 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-27 01:29:29.598 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-27 01:29:29.598 | INFO     | __main__:main:171 - 
+2025-11-27 01:29:29.598 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-27 01:29:29.598 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-27 01:29:29.599 | INFO     | __main__:main:174 - ============================================================
+2025-11-27 01:52:45.945 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-27 01:53:26.614 | INFO     | __main__:main:36 - ============================================================
+2025-11-27 01:53:26.614 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-27 01:53:26.615 | INFO     | __main__:main:38 - ============================================================
+2025-11-27 01:53:26.619 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-27 01:53:26.619 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-27 01:53:26.881 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-27 01:53:33.199 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-27 01:53:36.000 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-27 01:53:36.081 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-27 01:53:36.082 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-27 01:53:36.083 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-27 01:53:36.083 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-27 01:53:36.102 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-27 01:53:36.113 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-27 01:53:36.114 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-27 01:53:36.311 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-27 01:53:36.311 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-27 01:53:36.312 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-27 01:53:36.314 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-27 01:53:36.314 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-27 01:53:36.315 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-27 01:53:36.315 | INFO     | __main__:main:158 - ============================================================
+2025-11-27 01:53:36.315 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-27 01:53:36.316 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-27 01:53:36.316 | INFO     | __main__:main:161 - ============================================================
+2025-11-27 01:53:36.316 | INFO     | __main__:main:162 - 
+2025-11-27 01:53:36.316 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-27 01:53:36.316 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-27 01:53:36.317 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-27 01:53:36.317 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-27 01:53:36.318 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-27 01:53:36.319 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-27 01:53:36.319 | INFO     | __main__:main:171 - 
+2025-11-27 01:53:36.319 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-27 01:53:36.319 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-27 01:53:36.319 | INFO     | __main__:main:174 - ============================================================
+2025-11-27 02:13:03.712 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-27 02:13:11.662 | INFO     | __main__:main:36 - ============================================================
+2025-11-27 02:13:11.663 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-27 02:13:11.663 | INFO     | __main__:main:38 - ============================================================
+2025-11-27 02:13:11.669 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-27 02:13:11.669 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-27 02:13:12.015 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-27 02:13:18.726 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-27 02:13:25.730 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-27 02:13:25.966 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-27 02:13:25.967 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-27 02:13:25.968 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-27 02:13:25.969 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-27 02:13:26.065 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-27 02:13:26.124 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-27 02:13:26.125 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-27 02:13:26.689 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-27 02:13:26.690 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-27 02:13:26.692 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-27 02:13:26.708 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-27 02:13:26.709 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-27 02:13:26.710 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-27 02:13:26.711 | INFO     | __main__:main:158 - ============================================================
+2025-11-27 02:13:26.712 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-27 02:13:26.713 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-27 02:13:26.714 | INFO     | __main__:main:161 - ============================================================
+2025-11-27 02:13:26.715 | INFO     | __main__:main:162 - 
+2025-11-27 02:13:26.717 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-27 02:13:26.719 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-27 02:13:26.719 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-27 02:13:26.723 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-27 02:13:26.724 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-27 02:13:26.725 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-27 02:13:26.727 | INFO     | __main__:main:171 - 
+2025-11-27 02:13:26.728 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-27 02:13:26.730 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-27 02:13:26.731 | INFO     | __main__:main:174 - ============================================================
+2025-11-27 02:59:42.113 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete
+2025-11-27 16:30:53.845 | INFO     | __main__:main:36 - ============================================================
+2025-11-27 16:30:53.846 | INFO     | __main__:main:37 - 🚀 STARTING CORTEX UNIFIED BOT
+2025-11-27 16:30:53.846 | INFO     | __main__:main:38 - ============================================================
+2025-11-27 16:30:53.850 | INFO     | __main__:main:62 - ✅ Environment variables validated
+2025-11-27 16:30:53.851 | INFO     | __main__:main:63 - 📡 Redis: Upstash (URL configured)
+2025-11-27 16:30:54.096 | INFO     | __main__:main:69 - Connecting to MongoDB...
+2025-11-27 16:30:57.846 | INFO     | __main__:main:71 - ✅ Database connected
+2025-11-27 16:31:02.021 | INFO     | __main__:main:78 - Initializing AI handler...
+2025-11-27 16:31:02.085 | INFO     | __main__:main:80 - ✅ AI handler initialized
+2025-11-27 16:31:02.085 | INFO     | __main__:main:82 - Initializing bot handlers...
+2025-11-27 16:31:02.086 | INFO     | __main__:main:84 - ✅ Bot handlers initialized
+2025-11-27 16:31:02.086 | INFO     | __main__:main:87 - Initializing Telegram bot...
+2025-11-27 16:31:02.119 | INFO     | __main__:main:95 - Initializing channel monitoring...
+2025-11-27 16:31:02.147 | INFO     | __main__:main:107 - ✅ Channel monitoring started
+2025-11-27 16:31:02.148 | INFO     | __main__:main:122 - Starting Twilio webhook server...
+2025-11-27 16:31:02.571 | INFO     | __main__:main:143 - ✅ Twilio webhook server started on port 5000
+2025-11-27 16:31:02.572 | INFO     | __main__:main:144 -    Webhook URL: https://unshelved-edmund-presystematically.ngrok-free.dev
+2025-11-27 16:31:02.580 | INFO     | __main__:main:152 - 📋 Celery Configuration:
+2025-11-27 16:31:02.580 | INFO     | __main__:main:153 -    • Redis: Upstash (configured in celery_config.py)
+2025-11-27 16:31:02.582 | INFO     | __main__:main:154 -    • Queues: urgent, normal, low
+2025-11-27 16:31:02.582 | INFO     | __main__:main:155 -    • Workers: Start with 'celery -A celery_config worker -l info -Q urgent,normal,low'
+2025-11-27 16:31:02.582 | INFO     | __main__:main:158 - ============================================================
+2025-11-27 16:31:02.583 | INFO     | __main__:main:159 - 🤖 CORTEX BOT IS NOW RUNNING
+2025-11-27 16:31:02.583 | INFO     | __main__:main:160 - 💬 Send /start to your bot to begin
+2025-11-27 16:31:02.583 | INFO     | __main__:main:161 - ============================================================
+2025-11-27 16:31:02.584 | INFO     | __main__:main:162 - 
+2025-11-27 16:31:02.585 | INFO     | __main__:main:163 - 🔧 Running Services:
+2025-11-27 16:31:02.586 | INFO     | __main__:main:164 -    ✅ Telegram Bot
+2025-11-27 16:31:02.586 | INFO     | __main__:main:165 -    ✅ AI Handler (OpenAI)
+2025-11-27 16:31:02.587 | INFO     | __main__:main:166 -    ✅ MongoDB Database
+2025-11-27 16:31:02.587 | INFO     | __main__:main:168 -    ✅ Channel Monitor (Telethon)
+2025-11-27 16:31:02.587 | INFO     | __main__:main:170 -    ✅ Twilio Webhook (Flask)
+2025-11-27 16:31:02.587 | INFO     | __main__:main:171 - 
+2025-11-27 16:31:02.589 | INFO     | __main__:main:172 - ⚠️  NOTE: Start Celery workers separately for background tasks!
+2025-11-27 16:31:02.589 | INFO     | __main__:main:173 -    Command: celery -A celery_config worker -l info -Q urgent,normal,low
+2025-11-27 16:31:02.589 | INFO     | __main__:main:174 - ============================================================
+2025-11-27 18:19:26.948 | INFO     | __main__:main:190 - 🛑 Cortex bot shutdown complete

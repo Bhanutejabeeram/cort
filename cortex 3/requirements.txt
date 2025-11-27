@@ -1,0 +1,28 @@
+# Core Dependencies
+python-telegram-bot>=20.0
+telethon>=1.30.0
+openai>=1.0.0
+pymongo>=4.0
+motor>=3.0
+
+# Twilio
+twilio>=8.0
+
+# Solana
+solders>=0.18.0
+solana>=0.30.0
+base58>=2.1.0
+
+# Encryption & Security
+cryptography>=41.0
+mnemonic>=0.20
+
+# Utilities
+python-dotenv>=1.0
+requests>=2.30
+aiohttp>=3.8
+loguru>=0.7
+
+# Web Framework (for Twilio webhooks)
+flask>=3.0
+gunicorn>=21.0
